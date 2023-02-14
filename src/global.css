@@ -3,12 +3,19 @@
   src: url(/src/assets/OnonSoninSans.ttf); 
 }
 
-* {
-  font-family: 'Onon Sonin Sans';
+@font-face {
+  font-family: 'Oyun Qagan Tig';
+  src: url(/src/assets/OyunQaganTig.ttf);
+}
+
+@font-face {
+  font-family: 'Oyun Garbiqimel Tig';
+  src: url(/src/assets/OyunGarbiqimelTig.ttf);
 }
 
 html, body {
   height: 100%;
+  font-family: 'Onon Sonin Sans';
 }
 
 body {
