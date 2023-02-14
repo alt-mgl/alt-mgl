@@ -9,9 +9,4 @@ module.exports = defineConfig({
   },
   runtimeCompiler: true,
   publicPath: '.',
-  devServer: {
-    historyApiFallback: {
-      index: '/index.html',
-    },
-  },
 })

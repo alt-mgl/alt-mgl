@@ -7,9 +7,9 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="/#funcs">本站功能</b-nav-item>
-          <b-nav-item href="/#more_tools">更多工具</b-nav-item>
-          <b-nav-item href="/#study_res">学习资源</b-nav-item>
+          <b-nav-item @click="linkTo('funcs')">本站功能</b-nav-item>
+          <b-nav-item @click="linkTo('more_tools')">更多工具</b-nav-item>
+          <b-nav-item @click="linkTo('study_res')">学习资源</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -35,13 +35,18 @@ const routes = [
 export default {
   name: 'App',
   router: new VueRouter({
-    mode: 'history',
     routes,
   }),
-  data() {
-    return {
-      
-    }
+ 
+  methods: {
+    linkTo(id) {
+      if (location.hash.split('?')[0] === '#/') {
+        const elm = document.getElementById(id)
+        elm.scrollIntoView()
+      } else {
+        this.$router.push(`/?id=${id}`)
+      }
+    },
   },
 }
 </script>

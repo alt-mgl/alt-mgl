@@ -31,8 +31,8 @@
       <b-col>
         <b-list-group>
           <b-list-group-item
-            href="/hdm2pic"
             class="flex-column align-items-start"
+            @click="jumpTo('/hdm2pic')"
           >
             <b-row>
               <b-col cols="12" md="1">
@@ -257,6 +257,21 @@ export default {
       mgyyf,
       yfjj,
     }
+  },
+
+  mounted() {
+    const spRet = location.hash.split('?')
+    if (spRet.length > 1) {
+      const id = spRet.slice(-1)[0].split('=')[1]
+      const elm = document.getElementById(id)
+      elm.scrollIntoView()
+    }
+  },
+
+  methods: {
+    jumpTo(url) {
+      this.$router.push(url)
+    },
   },
 }
 </script>
