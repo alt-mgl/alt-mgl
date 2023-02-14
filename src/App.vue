@@ -9,6 +9,7 @@
         <b-navbar-nav>
           <b-nav-item href="/#funcs">本站功能</b-nav-item>
           <b-nav-item href="/#more_tools">更多工具</b-nav-item>
+          <b-nav-item href="/#study_res">学习资源</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

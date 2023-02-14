@@ -138,6 +138,98 @@
         </b-card>
       </b-col>
     </b-row>
+
+    <a id="study_res" class="anchor"></a>
+    <h4 class="mb-3">学习资源</h4>
+    <b-row class="mb-5">
+      <b-col cols="12" sm="6" md="4" lg="3">
+        <b-card
+          title="传统蒙文字母"
+          :img-src="ctmwzm"
+          img-alt="传统蒙文字母封面"
+          img-top
+          class="mb-3"
+        >
+          <b-card-text>
+            作者：<b-link href="https://space.bilibili.com/13957052/">@济北周南</b-link>
+            <br>
+            主要介绍传统蒙文字母的字头、字中、字尾的书写，以及各个字母的发音。
+          </b-card-text>
+          <b-button
+            href="https://www.bilibili.com/video/BV1Z34y1r7jp/"
+            variant="primary"
+          >
+            访问
+          </b-button>
+        </b-card>
+      </b-col>
+
+      <b-col cols="12" sm="6" md="4" lg="3">
+        <b-card
+          title="蒙古语基础词汇"
+          :img-src="mgych"
+          img-alt="蒙古语基础词汇封面"
+          img-top
+          class="mb-3"
+        >
+          <b-card-text>
+            作者：<b-link href="https://space.bilibili.com/13957052/">@济北周南</b-link>
+            <br>
+            词汇来自北大版<b-link href="https://book.douban.com/subject/26986873/">《现代蒙古语教程》</b-link>第一册。
+          </b-card-text>
+          <b-button
+            href="https://www.bilibili.com/video/BV1hU4y1Z7YS/"
+            variant="primary"
+          >
+            访问
+          </b-button>
+        </b-card>
+      </b-col>
+
+      <b-col cols="12" sm="6" md="4" lg="3">
+        <b-card
+          title="蒙古语基础语法"
+          :img-src="mgyyf"
+          img-alt="蒙古语基础语法封面"
+          img-top
+          class="mb-3"
+        >
+          <b-card-text>
+            作者：<b-link href="https://space.bilibili.com/355799586/">@莱依拉</b-link>
+            <br>
+            50词汇量拿捏蒙古语基础语法，用12节课讲解名词的格和动词的时。
+          </b-card-text>
+          <b-button
+            href="https://www.bilibili.com/video/BV1DD4y1z7Zm/"
+            variant="primary"
+          >
+            访问
+          </b-button>
+        </b-card>
+      </b-col>
+
+      <b-col cols="12" sm="6" md="4" lg="3">
+        <b-card
+          title="蒙古语语法精讲"
+          :img-src="yfjj"
+          img-alt="蒙古语语法精讲封面"
+          img-top
+          class="mb-3"
+        >
+          <b-card-text>
+            作者：<b-link href="https://space.bilibili.com/76757105/">@竹城的梦</b-link>
+            <br>
+            深入、细致讲解蒙古语语法知识，快速搭建蒙古语语法知识体系。
+          </b-card-text>
+          <b-button
+            href="https://www.bilibili.com/video/BV1cF411E7ex/"
+            variant="primary"
+          >
+            访问
+          </b-button>
+        </b-card>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
@@ -147,6 +239,11 @@ import xxmgy from '@/assets/xxmgy.png'
 import alt from '@/assets/alt.png'
 import bolor from '@/assets/bolor.png'
 
+import ctmwzm from '@/assets/ee6c08625374df308a76669d4895f21f06f5a7e0.jpg'
+import mgych from '@/assets/a041bb4769e59dd4da8d624f8a3517280f550201.jpg'
+import mgyyf from '@/assets/f378d40d0e2794004d274727537e009b9ff15dd5.jpg'
+import yfjj from '@/assets/f54290ad15793443ac7623701e1550202c01d51c.jpg'
+
 export default {
   name: 'IndexPage',
   data() {
@@ -155,6 +252,10 @@ export default {
       xxt,
       alt,
       bolor,
+      ctmwzm,
+      mgych,
+      mgyyf,
+      yfjj,
     }
   },
 }
