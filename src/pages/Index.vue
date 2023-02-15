@@ -14,7 +14,7 @@
             <b-col cols="12" lg="7" class="text-col mb-2">
               <div class="zh">阿六敦蒙古语工具站</div>
             </b-col>
-            <b-col cols="12" lg="4" class="text-col mb-2">
+            <b-col cols="12" lg="4" class="text-col mb-2" style="text-orientation: sideways;">
               <div class="mn">ᠠᠯᠲᠠᠨ</div>
               <div class="mn">ᠮᠣᠩᠭᠣᠯ</div>
               <div class="mn">ᠬᠡᠷᠡᠭᠰᠡᠯ</div>
