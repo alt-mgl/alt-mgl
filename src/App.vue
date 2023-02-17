@@ -32,7 +32,7 @@
           </b-col>
 
           <b-col cols="6" xl="3" class="mb-4">
-            友情连接：<br>
+            友情链接：<br>
             <b-link class="text-light" href="https://newstandshare.azurewebsites.net/">骑士外刊小站</b-link>
           </b-col>
 
