@@ -38,7 +38,7 @@
 
           <b-col cols="6" xl="3" class="mb-4">
             打赏：<br>
-            <b-link class="text-light" href="https://afdian.net/a/joenahm">爱发电</b-link>
+            <b-link class="text-light" v-b-modal.dsm-modal>微信赞赏码</b-link>
           </b-col>
         </b-row>
         <b-row class="bottom-slogan">
@@ -46,13 +46,20 @@
         </b-row>
       </b-container>
     </div>
+
+    <b-modal id="dsm-modal" title="微信赞赏码" hide-footer>
+      <div>
+        <img :src="dsm" alt="微信赞赏码" width="100%">
+      </div>
+    </b-modal>
   </div>
 </template>
 
 <script>
-import VueRouter from 'vue-router';
+import VueRouter from 'vue-router'
 import Index from '@/pages/Index.vue'
 import HDM2Pic from '@/pages/HDM2Pic.vue'
+import dsmPic from '@/assets/dsm.jpg'
 
 
 const routes = [
@@ -66,6 +73,12 @@ export default {
   router: new VueRouter({
     routes,
   }),
+
+  data() {
+    return {
+      dsm: dsmPic,
+    }
+  },
  
   methods: {
     linkTo(id) {

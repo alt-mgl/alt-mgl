@@ -100,14 +100,14 @@
 
       <b-col cols="12" sm="6" md="4" lg="3">
         <b-card
-          title="蒙古语-背单词"
+          title="阿六敦背单词"
           :img-src="alt"
-          img-alt="蒙古语-背单词logo"
+          img-alt="阿六敦背单词logo"
           img-top
           class="mb-3"
         >
           <b-card-text>
-            一个极简的蒙古语背单词小工具。
+            一个极简的蒙古、突厥等语言的背单词小工具。
           </b-card-text>
           <b-button
             href="https://joenahm.gitee.io/mgl-memo/"

@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   chainWebpack: (config) => {
     config.plugin('html').tap((args) => {
-        args[0].title = '阿六敦蒙古语工具站 · Алтан Монгол Хэрэгсэл Сайт · ᠠᠯᠲᠠᠨ ᠮᠣᠩᠭᠣᠯ ᠬᠡᠷᠡᠭᠰᠡᠯ ᠰᠠᠶᠢᠲᠤ';
+        args[0].title = '阿六敦蒙古语工具站 · Алтан Монгол Хэрэгсэл Сайт · ᠠᠯᠲᠠᠨ ᠮᠣᠩᠭᠣᠯ ᠬᠡᠷᠡᠭᠰᠡᠯ ᠰᠠᠶᠢᠲᠤ · Altun Mongolian Tools Site';
         return args;
     });
   },
