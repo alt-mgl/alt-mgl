@@ -124,7 +124,8 @@ export default {
 }
 
 .letter-item-wrapper {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .letter-wrapper {
   height: 150px;
