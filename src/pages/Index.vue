@@ -32,6 +32,28 @@
         <b-list-group>
           <b-list-group-item
             class="flex-column align-items-start"
+            @click="jumpTo('/alphabet')"
+          >
+            <b-row>
+              <b-col cols="12" md="1">
+                <div class="bg-icon">
+                  <b-icon-type></b-icon-type>
+                </div>
+              </b-col>
+              <b-col cols="12" md="11">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">蒙古文字母表</h5>
+                </div>
+
+                <p class="mb-1">
+                  包含西里尔蒙古文字母表和回鹘文字母表（注意不是回鹘式蒙古文）。
+                </p>
+              </b-col>
+            </b-row>
+          </b-list-group-item>
+
+          <b-list-group-item
+            class="flex-column align-items-start"
             @click="jumpTo('/hdm2pic')"
           >
             <b-row>
@@ -234,15 +256,15 @@
 </template>
 
 <script>
-import xxt from '@/assets/xxt.png'
-import xxmgy from '@/assets/xxmgy.png'
-import alt from '@/assets/alt.png'
-import bolor from '@/assets/bolor.png'
+import xxt from '@/assets/logos/xxt.png'
+import xxmgy from '@/assets/logos/xxmgy.png'
+import alt from '@/assets/logos/alt.png'
+import bolor from '@/assets/logos/bolor.png'
 
-import ctmwzm from '@/assets/ee6c08625374df308a76669d4895f21f06f5a7e0.jpg'
-import mgych from '@/assets/a041bb4769e59dd4da8d624f8a3517280f550201.jpg'
-import mgyyf from '@/assets/f378d40d0e2794004d274727537e009b9ff15dd5.jpg'
-import yfjj from '@/assets/f54290ad15793443ac7623701e1550202c01d51c.jpg'
+import ctmwzm from '@/assets/covers/ee6c08625374df308a76669d4895f21f06f5a7e0.jpg'
+import mgych from '@/assets/covers/a041bb4769e59dd4da8d624f8a3517280f550201.jpg'
+import mgyyf from '@/assets/covers/f378d40d0e2794004d274727537e009b9ff15dd5.jpg'
+import yfjj from '@/assets/covers/f54290ad15793443ac7623701e1550202c01d51c.jpg'
 
 export default {
   name: 'IndexPage',

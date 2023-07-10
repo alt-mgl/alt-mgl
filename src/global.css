@@ -1,16 +1,21 @@
 @font-face {
   font-family: 'Onon Sonin Sans';
-  src: url(/src/assets/OnonSoninSans.ttf); 
+  src: url(/src/assets/fonts/OnonSoninSans.ttf); 
 }
 
 @font-face {
   font-family: 'Oyun Qagan Tig';
-  src: url(/src/assets/OyunQaganTig.ttf);
+  src: url(/src/assets/fonts/OyunQaganTig.ttf);
 }
 
 @font-face {
   font-family: 'Oyun Garbiqimel Tig';
-  src: url(/src/assets/OyunGarbiqimelTig.ttf);
+  src: url(/src/assets/fonts/OyunGarbiqimelTig.ttf);
+}
+
+@font-face {
+  font-family: 'UGMG';
+  src: url(/src/assets/fonts/ugmg.ttf);
 }
 
 html, body {

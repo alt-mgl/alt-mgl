@@ -59,12 +59,14 @@
 import VueRouter from 'vue-router'
 import Index from '@/pages/Index.vue'
 import HDM2Pic from '@/pages/HDM2Pic.vue'
+import Alphabet from './pages/Alphabet.vue'
 import dsmPic from '@/assets/dsm.jpg'
 
 
 const routes = [
   { path: '/', component: Index },
   { path: '/hdm2pic', component: HDM2Pic },
+  { path: '/alphabet', component: Alphabet },
 ]
 
 
@@ -96,6 +98,7 @@ export default {
 <style>
 #main {
   margin-top: 100px;
+  margin-bottom: 50px;
   min-height: 1000px;
 }
 
