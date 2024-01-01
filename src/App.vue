@@ -33,7 +33,7 @@
 
           <b-col cols="6" xl="3" class="mb-4">
             友情链接：<br>
-            <b-link class="text-light" href="https://newstandshare.azurewebsites.net/">骑士外刊小站</b-link>
+            <b-link class="text-light" href="https://knightmagzines.netlify.app/">骑士外刊小站</b-link>
           </b-col>
 
           <b-col cols="6" xl="3" class="mb-4">
